@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    environment:
+      SECRET_KEY: ${SECRET_KEY}
+    container_name: site
+    ports:
+      - "8000:8000"
+  nginx:
+    build:
+      context: ./travel_site/docker/nginx
+      dockerfile: Dockerfile
+    depends_on:
+      - web
+    ports:
+      - "80:80"
+    volumes:
+      - ./travel_site/main/static/:/static/
+      - ./travel_site/media/:/media/
+  

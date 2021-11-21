@@ -1,0 +1,11 @@
+Django
+flake8
+pep8
+pytest
+django-crispy-forms
+django-environ
+loguru
+Pillow
+django-phonenumber-field
+phonenumbers
+gunicorn
