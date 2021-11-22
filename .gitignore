@@ -139,6 +139,8 @@ venv.bak/
 .DS_Store
 dmypy.json
 
+poetry.lock
+
 # Pyre type checker
 .pyre/
 
