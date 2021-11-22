@@ -183,7 +183,7 @@ section{
     opacity: 1;
 }
 
-.home{
+.home {
     margin:0 auto;
     margin-top: 9rem;
     width: 90%;
@@ -197,7 +197,7 @@ section{
     align-items: center;
     justify-content: center;
     padding-bottom: 5rem;
-
+    }
     .content{
         text-align: center;
         span{
@@ -220,7 +220,6 @@ section{
             line-height: 2;
         }
     }
-}
 
 .book-form{
     width:80%;
@@ -551,8 +550,7 @@ section{
     }
 }
 .banner{
-    background-image:li
-    near-gradient($black-bg, $black-bg);
+    background-image:linear-gradient($black-bg, $black-bg);
     background-size: cover;
     background-position: center;
     padding: 3rem 2rem;

@@ -221,11 +221,11 @@ section {
   padding-bottom: 5rem;
 }
 
-.home .content {
+.content {
   text-align: center;
 }
 
-.home .content span {
+.content span {
   font-weight: bolder;
   color: transparent;
   -webkit-text-stroke: 0.1rem #fff;
@@ -233,12 +233,12 @@ section {
   display: block;
 }
 
-.home .content h3 {
+.content h3 {
   font-size: 6vw;
   color: #fff;
 }
 
-.home .content p {
+.content p {
   max-width: 60rem;
   margin: 1rem auto;
   font-size: 1.4rem;
@@ -666,7 +666,8 @@ section {
 }
 
 .banner {
-  background-image: li near-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7)));
+  background-image: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7));
   background-size: cover;
   background-position: center;
   padding: 3rem 2rem;
