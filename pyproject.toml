@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "travel-site-template"
+version = "0.1.0"
+description = ""
+authors = ["alone"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flake8 = "^4.0.1"
+fastapi = "^0.70.1"
+motor = "^2.5.1"
+uvicorn = "^0.16.0"
+pydantic = {extras = ["email"], version = "^1.8.2"}
+Jinja2 = "^3.0.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

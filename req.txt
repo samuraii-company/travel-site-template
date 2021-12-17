@@ -1,0 +1,8 @@
+flake8
+fastapi
+motor
+uvicorn
+pydantic[email]
+Jinja2
+gunicorn
+python-multipart
